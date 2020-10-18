@@ -1,11 +1,13 @@
 function params = read_namelist(filename, namelist)
 
 arguments
-  filename (1,1) string {mustBeFile}
+  filename (1,1) string
   namelist (1,1) string
 end
 
 params = struct();
+
+assert(isfile(filename), filename + " not found.")
 
 fid = fopen(filename);
 while ~feof(fid)

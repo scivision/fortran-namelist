@@ -1,5 +1,8 @@
 # Fortran Namelist Reader
 
+[![Build Status](https://travis-ci.com/scivision/fortran-namelist.svg?branch=master)](https://travis-ci.com/scivision/fortran-namelist)
+![ci](https://github.com/scivision/fortran-namelist/workflows/ci/badge.svg)
+
 Pure Python and Matlab **readers** for
 [Fortran namelist](https://github.com/scivision/fortran2018-examples/tree/master/namelist)
 => dict / struct
