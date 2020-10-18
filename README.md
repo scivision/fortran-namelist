@@ -27,3 +27,10 @@ print(read_namelist('example.nml', 'base'))
 ```octave
 read_namelist('example.nml', 'base')
 ```
+
+## Examples
+
+[read.f90](./read.f90)
+example shows that one must allocate arrays before reading a namelist array variable.
+Character can be read with a variable (much) longer than known needed, then trim() to another allocatable character variable.
+Despite what some forums say, reading namelist directly into allocatable just segfaults with Intel or GCC compilers.
