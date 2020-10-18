@@ -21,4 +21,7 @@ jobs:
     - run: flake8
     - run: mypy .
 
-    - run: pytest
+    - run: cmake -B build
+    - run: cmake --build build
+    - run: ctest -V
+      working-directory: build
