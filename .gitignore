@@ -1,3 +1,6 @@
+code-coverage/
+test-results/
+
 .vscode/
 *.dwf
 *.pdb

@@ -1,6 +1,6 @@
 # Fortran Namelist Reader
 
-[![Build Status](https://travis-ci.com/scivision/fortran-namelist.svg?branch=master)](https://travis-ci.com/scivision/fortran-namelist)
+[![Build Status](https://dev.azure.com/mhirsch0512/fortran-namelist/_apis/build/status/scivision.fortran-namelist?branchName=master)](https://dev.azure.com/mhirsch0512/fortran-namelist/_build/latest?definitionId=23&branchName=master)
 ![ci](https://github.com/scivision/fortran-namelist/workflows/ci/badge.svg)
 
 Pure Python and Matlab **readers** for

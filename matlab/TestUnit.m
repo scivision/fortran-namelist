@@ -3,7 +3,8 @@ classdef TestUnit < matlab.unittest.TestCase
 methods (Test)
 
 function test_basic(tc)
-file = "example.nml";
+cwd = fileparts(mfilename('fullpath'));
+file = fullfile(cwd, "../example.nml");
 dat = read_namelist(file, "base");
 tc.verifyEqual(dat.x, [1, 2, 3])
 
