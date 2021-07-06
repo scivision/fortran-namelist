@@ -12,7 +12,7 @@ pool:
 steps:
   - task: InstallMATLAB@0
     inputs:
-      release: R2020a
+      release: R2021a
   - task: RunMATLABCommand@0
     inputs:
       command: TestAll

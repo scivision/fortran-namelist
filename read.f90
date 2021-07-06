@@ -1,6 +1,8 @@
 program read_namelist
 !! demo reading a namelist
 
+implicit none
+
 integer :: u, Nx
 
 real, allocatable :: x(:)
